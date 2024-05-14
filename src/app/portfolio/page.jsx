@@ -15,8 +15,8 @@ const page = () => {
       <BtnBack></BtnBack>
       <h1 className='title'>PORTFOLIO</h1>
       <div className='container-card'>
-        {works.map((item) => (
-          <div className='card'>
+        {works.map((item, index) => (
+          <div key={index} className='card'>
             <div className='pixel-1'></div>
             <div className='pixel-2'></div>
             <div className='pixel-3'></div>

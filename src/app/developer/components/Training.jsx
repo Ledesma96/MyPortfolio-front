@@ -7,8 +7,8 @@ const Training = () => {
     <div className='container-developer_training'>
         <h3 className='container-developer_training_h3'>ACADEMIC TRAINING</h3>
         <div className='container-developer_training_card'>
-            {titles.map((item) => (
-                <div className='container-developer_training_card_div'>
+            {titles.map((item, index) => (
+                <div key={index} className='container-developer_training_card_div'>
                     <h4 className='container-developer_training_card_div_h4'>{item.title}</h4>
                     <img className='container-developer_training_card_div_img' src={item.diploma}></img>
                 </div>
