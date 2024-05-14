@@ -19,7 +19,7 @@ const Welcome = () => {
                       <Options options={options}></Options>
                       :
                       <>
-                        <h1 className="font-pixel">WELCOME TO GABRIEL'S PORTFOLIO!</h1>
+                        <h1 className="font-pixel">WELCOME TO GABRIEL&apos;S PORTFOLIO!</h1>
                         <button onClick={handleClick} className='start'>
                           <div className='pixel-1'></div>
                           <div className='pixel-2'></div> 
