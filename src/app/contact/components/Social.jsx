@@ -21,13 +21,13 @@ const Social = () => {
                 <div className='container-contact_div_div_section_div'>
                     <Link className='link'  href='https://api.whatsapp.com/send?phone=5491164323570' target='_blank'>
                         <img className='container-contact_div_div_section_div_img' src='/whatsapp_pixel_logo_icon_181923.png' alt='whatsapp logo'></img>
-                        <p className='container-contact_div_div_section_div_p'>+54 911 6432-3570</p>
+                        <p className='container-contact_div_div_section_div_p'>&#43;54 911 6432-3570</p>
                     </Link>
                 </div>
                 <div className='container-contact_div_div_section_div'>
                     <Link className='link' href='tel:+5491164323570'>
                         <img className='container-contact_div_div_section_div_img' src='/pngtree-pixel-art-call-center-icon-design-vector-png-image_8532647.png' alt='telephone logo'></img>
-                        <p className='container-contact_div_div_section_div_p'>+54 911 6432-3570</p>
+                        <p className='container-contact_div_div_section_div_p'>&#43;54 911 6432-3570</p>
                     </Link>
                 </div>
                 <div className='container-contact_div_div_section_div'>

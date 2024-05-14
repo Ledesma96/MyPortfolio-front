@@ -10,10 +10,10 @@ const Welcome = () => {
   }
   return (
     <div className='container-home'>
-        <img className='image-home' src={'/escena-pixeles-graficos-8-bits-ciudad-al-atardecer_23-2151120910.jpg'}/>
-        <img className='gif-1' src='/245b4c950cc552ca58eeb355dc76a8df.gif'></img>
-        <img className='gif-2' src='/245b4c950cc552ca58eeb355dc76a8df.gif'></img>
-        <img className='gif-3' src='/245b4c950cc552ca58eeb355dc76a8df.gif'></img>
+        <img className='image-home' src='/escena-pixeles-graficos-8-bits-ciudad-al-atardecer_23-2151120910.jpg' alt='imagen de fondo'/>
+        <img className='gif-1' src='/245b4c950cc552ca58eeb355dc76a8df.gif' alt='gif fuego artificial'></img>
+        <img className='gif-2' src='/245b4c950cc552ca58eeb355dc76a8df.gif' alt='gif fuego artificial'></img>
+        <img className='gif-3' src='/245b4c950cc552ca58eeb355dc76a8df.gif' alt='gif fuego artificial'></img>
         <main className='container-home_div'>
           { options ? 
                       <Options options={options}></Options>
